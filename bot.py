@@ -4,9 +4,9 @@ import re
 import asyncio
 from urllib.parse import urlparse
 
-API_ID = int(os.getenv("21180805"))
-API_HASH = os.getenv(''7a7471487558a0bce88d5574d96ff7dd")
-BOT_TOKEN = os.getenv("7a7471487558a0bce88d5574d96ff7dd")
+API_ID = int(os.getenv(21180805) 
+API_HASH = os.getenv(7a7471487558a0bce88d5574d96ff7dd) 
+BOT_TOKEN = os.getenv(7a7471487558a0bce88d5574d96ff7dd) 
 
 app = Client("video_extract_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
