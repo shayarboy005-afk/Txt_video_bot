@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-Client(
+app = Client(
     "video_extract_bot",
     api_id=A21180805,
     api_hash=7a7471487558a0bce88d5574d96ff7dd, 
