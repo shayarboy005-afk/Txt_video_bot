@@ -1,10 +1,8 @@
-
-     from pyrogram import Client, filters
+from pyrogram import Client, filters
 import os
 import re
 import asyncio
 from urllib.parse import urlparse
-
 API_ID = int(os.getenv(21180805))
 API_HASH = os.getenv(7a7471487558a0bce88d5574d96ff7dd)
 BOT_TOKEN = os.getenv(7581629617:AAFJgSLJ8wK7POvsLjlSO7-1CuQuUjM2xQk)
