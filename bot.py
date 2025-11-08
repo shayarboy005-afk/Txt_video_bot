@@ -3,15 +3,14 @@ import os
 import re
 import asyncio
 from urllib.parse import urlparse
-API_ID = int(os.getenv("21180805"))
-API_HASH = os.getenv("7a7471487558a0bce88d5574d96ff7dd")
-BOT_TOKEN = os.getenv("7581629617:AAFJgSLJ8wK7POvsLjlSO7-1CuQuUjM2xQk")
-
-app = Client(
+API_ID = int(os.getenv("API_ID"))
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+Client(
     "video_extract_bot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
+    api_id=A21180805,
+    api_hash=7a7471487558a0bce88d5574d96ff7dd, 
+    bot_token=7a7471487558a0bce88d5574d96ff7dd
 )
 
 def extract_links(text):
